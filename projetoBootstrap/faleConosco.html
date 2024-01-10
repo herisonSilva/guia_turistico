@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>projeto em bootstrap</title>
+</head>
+<body>
+    
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+            <a class="navbar-brand font-italic text-danger" href="index.html">TOURistando</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="servicos.html">Serviços</a>
+                <a class="nav-item nav-link" href="faleConosco.html">Fale Conosco</a>
+                <a class="nav-item nav-link" href="sobreMim.html">Sobre Mim</a>
+              </div>
+            </div>
+        </nav>
+    </header><hr><hr><hr>
+    <main>
+        <form action="cad.php" method="get">
+            <div class="form-group">
+                <label for="nome">Digite seu nome</label>
+                <input type="text" class="form-check" id="idNome" placeholder="Nome completo">
+              </div>
+            <div class="form-group">
+              <label for="email">Endereço de email</label>
+              <input type="email" class="form-check" id="idEmail" aria-describedby="emailHelp" placeholder="usuario123@gmail.com">
+            </div>
+
+            <div class="form-group">
+              <label for="senha">digite uma senha</label>
+              <input type="password" class="form-check" id="idsenha" placeholder="minimo de 8 caracteres">
+
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </main>
+    <footer>
+        <div class="card bg-dark text-white text-center">
+            <div class="card-body" >
+              <h5 class="card-title">Visite nossas redes sociais.</h5>
+              
+              <a href="https://www.linkedin.com/in/herison-hugo-40b426249/" class="btn btn-secondary" target="_blank">Linkedin</a>
+              <a href="https://www.facebook.com/herison.hugodejesussilva" class="btn btn-secondary" target="_blank">Facebook</a>
+              <a href="http://wa.me/+5521969164450" class="btn btn-secondary" target="_blank">Whatsapp</a>
+            </div>
+            <div class="card-footer text-muted">
+                Criado com Bootstrap 5 e editado por Herison Hugo.
+            </div>
+          </div>
+          
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
